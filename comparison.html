@@ -1,0 +1,118 @@
+<!-- The Comparison page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", shrink-to-fit=no">
+
+     <!-- Bootstrap CSS. this is a link to an open source html code and css/js style guide located on the web. -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Blue Alon Analytics</title>
+</head>
+<body>
+    <!-- <h1>Here is the beginning of my first legit webpage</h1> -->
+  <div class="container">
+    <!-- Navbar code  -->      
+    <nav class="navbar navbar-expand-lg navbar-light bg-info text-white">
+        <a class="navbar-brand text-white" href="index.html">Blue Alon Analytics</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto text-white">
+            <!-- Drop down menu -->
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+            </a>
+            <div class="dropdown-menu text-white" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item bg-info text-white" href="1_temp.html">Temperature</a>
+                <a class="dropdown-item bg-info text-white" href="2_humidity.html">Humidity</a>
+                <a class="dropdown-item bg-info text-white" href="3_cloud.html">Cloudiness</a>
+                <a class="dropdown-item bg-info text-white" href="4_wind.html">Wind</a>
+            </div>
+            <!-- Link to other pages -->
+            </li>
+            <li class="nav-item text-white">
+                <a class="nav-link text-white" href="comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item text-white">
+                <a class="nav-link text-white" href="data.html">Data</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  </div>
+
+  <div class='container'>
+    <div class='row'>
+      <div class='col bg-light text-dark'>
+        <h1 class = 'bg-light text-info col page-title'>
+          Comparison: Latitude vs. Weather Properties
+        </h1>
+        
+        <hr size=2>
+        
+        <p class= 'bg-light text-dark'>
+          Click any plot for an in-depth analysis.
+        </p>      
+    </div>
+    </div>
+    <div class='container'>
+
+    <div class='row'>
+
+        <div class='col-lg-6 col-sm-12 text-center'>
+                <p class='image-title'>vs. Max Temperature</p>
+                <a href='1_temp.html'>
+                        <img src='assets\images\Fig1.png'>
+                </a>
+        </div>
+        <div class='col-lg-6 col-sm-12 text-center'>
+                <p class='image-title'>vs. Humidity</p>
+                <a href='2_humidity.html'>
+                        <img src='assets\images\Fig2.png'>
+                </a>
+        </div>
+        <div class='col-lg-6 col-sm-12 text-center'>
+                <p class='image-title'>vs. Cloudiness</p>
+                <a href='3_cloud.html'>
+                        <img src='assets\images\Fig3.png'>
+                </a>
+        </div>
+        <div class='col-lg-6 col-sm-12 text-center'>
+                <p class='image-title'>vs. Wind Speed</p>
+                <a href='4_wind.html'>
+                        <img src='assets\images\Fig4.png'>
+                </a>
+        </div>
+          
+      </div>
+
+
+        <!-- <img class='col-lg-6 col-sm-12' src='images/Fig1_Lat_v_Temp.png'>
+        <img class='col-lg-6 col-sm-12' src='images/Fig2_Lat_v_Hum.png'>
+        <img class='col-lg-6 col-sm-12' src='images/Fig3_Lat_v_Cloud.png'>
+        <img class='col-lg-6 col-sm-12' src='images/Fig4_Lat_v_Wind.png'> -->
+      </div>
+  </div>
+
+
+  <!-- Main - summary content - 8 columns wide -->
+  
+
+  <!-- Secondary content - viz side bar - 4 columns wide -->
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
