@@ -31,7 +31,7 @@
             <div class="dropdown-menu text-white" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item bg-info text-white" href="1_temp.html">Temperature</a>
                 <a class="dropdown-item bg-info text-white" href="2_humidity.html">Humidity</a>
-                <a class="dropdown-item bg-info text-white" href="3_cloud">Cloudiness</a>
+                <a class="dropdown-item bg-info text-white" href="3_cloud.html">Cloudiness</a>
                 <a class="dropdown-item bg-info text-white" href="4_wind.html">Wind</a>
             </div>
             <!-- Link to other pages -->
@@ -59,16 +59,12 @@
         <hr size=2>
 
         <!-- Main image centered -->
-        <img src="assets\images\Fig1.png" class="rounded mx-auto d-block" alt="chart to compare latitude with temperatures around the world">
+        <img src="assets\images\Fig1.png" class="row col rounded mx-auto d-block" alt="chart to compare latitude with temperatures around the world">
         <!-- Setting style of the paragraph and the photo area -->
         <p class="p-3 mb-2 bg-light text-dark">
-          <!-- Pull image to the left of this paragraph element so that the text wraps -->
-          <img src="assets\images\Fig1.2.jpg" class="pull-left  float-left" alt="weather to latitude comparison">
+          <!-- Paragraph element is left justified -->
           <p class="p-3 mb-2 bg-light text-dark">
-            The purpose of this project was to analyze how weather changes as you get cloer to the equator. To accomplish this analysis we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities. 
-          </p>
-          <p class="p-3 mb-2 bg-light text-dark">
-            After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the stouce data and visualizations created as part of the analysis, as well as explanations and descirptions of any trends.
+            As expected, temperatures tend to rise as we move closer to the equator (0 latitude). It will also drop as we move towards the poles. Depending on the time of the year the average temperatures will be warmer in the northern hemisphere during the months of May-September and for the Southern hemisphere, warmer October-April. This is due to the tilt of the Earth towards the sun.
           </p>
         </p>
       </div>
@@ -99,7 +95,7 @@
           <a class = 'col-md-6' href = '3_cloud.html'>
                   <img src='assets\images\Fig3.2.jpg'>
           </a>
-          <a class = 'col-md-6' href = '4_windspd.html'>
+          <a class = 'col-md-6' href = '4_wind.html'>
                   <img src='assets\images\Fig4.2.jpg'>
           </a>
         </div>
